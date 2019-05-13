@@ -6,5 +6,8 @@ functions:
   inception:
     lang: dockerfile
     handler: ./function
-    image: alexellis/inception:2.1
+    image: albertomarini/inception:2.1
 
+spec:
+  constraints:
+   - "type: cloud"
