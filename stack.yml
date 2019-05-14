@@ -9,5 +9,5 @@ functions:
     image: albertomarini/inception:2.1
 
 spec:
-  constraints:
-   - "type: cloud"
+  nodeSelector:
+   type: cloud2
