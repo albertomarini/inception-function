@@ -10,4 +10,4 @@ functions:
 
 spec:
   nodeSelector:
-   type: cloud
+   type: rasp
