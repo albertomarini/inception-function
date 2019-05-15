@@ -9,5 +9,5 @@ functions:
     image: alexellis/inception:2.1
 
 spec:
-  nodeSelector:
-   type: rasp
+  constraints:
+   - "type=rasp"
