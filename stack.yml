@@ -6,7 +6,7 @@ functions:
   inception:
     lang: dockerfile
     handler: ./function
-    image: albertomarini/inception:2.1
+    image: alexellis/inception:2.1
 
 spec:
   nodeSelector:
