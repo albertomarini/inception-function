@@ -7,7 +7,5 @@ functions:
     lang: dockerfile
     handler: ./function
     image: alexellis/inception:2.1
-
-spec:
-  constraints:
-   - "type=rasp"
+    constraints:
+      - "type=rasp"
